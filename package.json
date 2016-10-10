@@ -23,7 +23,7 @@
   ],
   "dependencies": {
     "gulp-util": "^3.0.4",
-    "json-to-sass": "0.0.1",
+    "json-to-sass": "https://github.com/namesco/json-to-sass/tarball/50d1b3e343201503d871416345fb5d81b2c21607",
     "lodash": "^3.10.1",
     "through2": "^0.6.5"
   },

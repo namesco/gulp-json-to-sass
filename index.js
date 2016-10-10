@@ -22,7 +22,7 @@ module.exports = function (options) {
 
 		try {
 			var jsonData = fileStream.readFileSync(options.jsonPath);
-			var scss = jsonToSass(jsonData);
+			var scss = jsonToSass(jsonData, options);
 
 			fileStream.writeFileSync(options.scssPath, scss);
 
